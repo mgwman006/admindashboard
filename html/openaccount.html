@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Account</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" >
+</head>
+<body>
+
+    <div class="container">
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Moneyed</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Open Account </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./deposit.html">Deposit</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h1>Welcome Moneyed!</h1>
+      <h6>Please fill the form below to open account</h6>
+
+
+      <!-- Account Form -->
+      <div name="openAccountForm" id="openAccountFormId">
+
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" name="accountOwnerFirstName" id="accountOwnerFirstNameId" placeholder="maneno">
+          <label for="accountOwnerFirstNameId">First Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" name="accountOwnerLastName" id="accountOwnerLastNameId" placeholder="mgwami">
+          <label for="accountOwnerLastNameId">Last Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" name="accountOwnerId" id="accountOwnerIdId" placeholder="TAE282571">
+          <label for="accountOwnerIdId">ID/Passport Number</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" name="accountOwnerEmail" id="accountOwnerEmailId" placeholder="maneno@synthesis.co.za">
+          <label for="accountOwnerEmailId">Email address</label>
+        </div>
+
+        <div class="col-12" style="display:bloc" id="activeButton">
+          <button id="accountSubmitButton" onclick="createAccount()" class="btn btn-primary">Submit</button>
+        </div>
+
+        <div class="col-12" style="display:none" id="disabledButton">
+          <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Loading...
+          </button>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+    <script src="../js/bootstrap.js" ></script>
+    <script src="../js/openaccount.js" ></script>
+
+</body>
+</html>
