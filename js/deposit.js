@@ -59,7 +59,7 @@ async function deposit()
             {
                 document.getElementById("depositActiveButton").style.display = "block";
                 document.getElementById("depositDisabledButton").style.display = "none";
-                const message = `User exist An error has occurred: ${depositResponse.status} `;
+                const message = `An error has occurred: ${depositResponse.status} `;
                 throw new Error(message);
             }
 
@@ -68,7 +68,7 @@ async function deposit()
                 function (results)
                 {
                    alert("successful");
-                   alert(JSON.stringify(results));
+                   //alert(JSON.stringify(results));
                    window.location.reload();
                 },
                 function (error)

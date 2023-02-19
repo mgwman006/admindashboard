@@ -39,22 +39,56 @@
 
             </div>
         </nav>
+
         <div class="maincontent">
 
-            <div>
-<!--                        <h1>Feel At Home!</h1>-->
-                        <h1 style="font-style:italic;">Initialize Banking Life with Moneyed</h1>
+            <div class="openanddepositbuttons">
+
+                <div class="d-grid gap-2 d-md-block">
+                    <a class="btn btn-outline-primary" type="button" href="./html/openaccount.html">Open Account</a>
+                    <a class="btn btn-outline-success" type="button" href="./html/deposit.html">Deposit Now</a>
+                </div>
+
             </div>
 
-            <div class="d-grid gap-2 d-md-block">
-                <a class="btn btn-outline-primary" type="button" href="./html/openaccount.html">Open Account</a>
-                <a class="btn btn-outline-success" type="button" href="./html/deposit.html">Deposit Now</a>
+
+
+            <div class="row overflow-scroll"  style="max-height: 500px" >
+
+                <!--style="height: 30rem;"-->
+                <div id="accountsDiv" class="container-fluid" >
+                    <caption>
+                        <h5>List of Accounts</h5>
+                    </caption>
+                    <table class="table caption-top">
+
+                        <thead class="table-success">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">accountNumber</th>
+                                <th scope="col">accountType</th>
+                                <th scope="col">balance</th>
+                                <th scope="col">accountOwnerFirstName</th>
+                                <th scope="col">accountOwnerLastName</th>
+                                <th scope="col">accountOwnerEmail</th>
+                                <th scope="col">accountOwnerId</th>
+                            </tr>
+                        </thead>
+                        <tbody id="allAccountsTableBody">
+
+                        </tbody>
+
+                    </table>
+                </div>
+
             </div>
+
         </div>
 
     </div>
 
 <script src="./js/bootstrap.js" ></script>
+    <script src="./js/index.js" ></script>
 
 </body>
 </html>

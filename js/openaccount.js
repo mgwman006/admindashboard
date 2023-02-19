@@ -59,7 +59,7 @@ async function createAccount()
             {
                 document.getElementById("activeButton").style.display = "block";
                 document.getElementById("disabledButton").style.display = "none";
-                const message = `User exist An error has occurred: ${response.status} `;
+                const message = `An error has occurred: ${response.status} `;
                 throw new Error(message);
             }
 
@@ -68,7 +68,7 @@ async function createAccount()
                 function (results)
                 {
                    alert("successful");
-                   alert(JSON.stringify(results));
+                   //alert(JSON.stringify(results));
                    window.location.reload();
                 },
                 function (error)

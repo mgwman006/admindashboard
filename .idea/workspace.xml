@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="96e940ab-3b5b-4eed-8a64-126a3520578f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/deposit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/openaccount.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/deposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/deposit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/openaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/openaccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/deposit.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/deposit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/openaccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/openaccount.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
